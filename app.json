@@ -1,15 +1,15 @@
 {
     "name": "ffmpeg-videoencoder",
-    "description": "A Telegram Bot by @diablo_13N",
+    "description": "A Telegram Bot by dark knight",
     "keywords": [
         "telegram",
         "encode",
         "video",
         "bot"
     ],
-    "repository": "https://github.com/royal78/ffmpeg-videoencoder/",
-    "website": "https://t.me/diabl_13N",
-    "success_url": "https://t.me/baka_no_onii",
+    "repository": "https://github.com/adamammofake/newlosslesscompressor",
+    "website": "https://t.me/newlosslessffmpeg_bot",
+    "success_url": "https://t.me/newlosslessffmpeg",
     "env": {
         "api_id": {
             "description": "Get this value from my.telegram.org"
