@@ -22,17 +22,17 @@ video_mimetype = [
 
 @app.on_message(filters.incoming & filters.command(['start', 'help']))
 def help_message(app, message):
-    message.reply_text(f"Hi {message.from_user.mention()}\nIts bot to encode video to ffmpeg encode..\nJust send me video I will do the rest...\nThe bot is developed by @diablo_13N\n",
+    message.reply_text(f"Hi {message.from_user.mention()}\nIts bot to encode video to ffmpeg encode..\nJust send me video I will do the rest...\nThe bot is developed by dark knight\n",
                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Clone this bot for free !",
-                                                                                  url="https://github.com/royal78/ffmpeg-cov")],
+                                                                                  url="https://github.com/adamammofake/newlosslesscompressor")],
                                                           [InlineKeyboardButton("My developer",
-                                                                                url="t.me/diablo_13N")],
+                                                                                url="https://t.me/dsoulark")],
                                                           [InlineKeyboardButton("Github page",
-                                                                                url="https://github.com/royal78/ffmpeg-cov")],
+                                                                                url="https://github.com/adamammofake/newlosslesscompressor")],
                                                           [InlineKeyboardButton("Join channel for updates",
-                                                                                url="https://t.me/baka_no_onii")],
+                                                                                url="https://t.me/newlossless")],
                                                           [InlineKeyboardButton("Join group",
-                                                                                url="https://t.me/anim_chatx")]]))
+                                                                                url="https://t.me/newlosslessffmpeg")]]))
 
 @app.on_message(filters.incoming & (filters.video | filters.document))
 def encode_video(app, message):
