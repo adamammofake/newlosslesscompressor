@@ -1,0 +1,35 @@
+{
+    "name": "ffmpeg-videoencoder",
+    "description": "A Telegram Bot by @diablo_13N",
+    "keywords": [
+        "telegram",
+        "encode",
+        "video",
+        "bot"
+    ],
+    "repository": "https://github.com/royal78/ffmpeg-videoencoder/",
+    "website": "https://t.me/diabl_13N",
+    "success_url": "https://t.me/baka_no_onii",
+    "env": {
+        "api_id": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "api_hash": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "bot_token": {
+            "description": "new bot from @BotFather XD"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
